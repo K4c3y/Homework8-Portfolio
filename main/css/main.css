@@ -88,3 +88,7 @@ main .icons a:hover {
     color: #eece1a;
     transition: all 0.5s ease-out;
 }
+
+.sidenav-overlay {
+    display: none !important;
+}
