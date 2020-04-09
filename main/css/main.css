@@ -109,17 +109,32 @@ main .icons a:hover {
     display: none !important;
 }
 
-.card {
+.card-about {
     transition: .5s;
     background: #9e9e9e;
 }
 
-.card:hover i,
+.card-about:hover i,
 h5 {
     color: #c218;
 }
 
-.card:hover {
+.card-about:hover {
+    transform: scale(1.03);
+    background: #eece1a;
+}
+
+.card-projects {
+    transition: .5s;
+    background: #9e9e9e;
+}
+
+.card-projects:hover i,
+h5 {
+    color: #c218;
+}
+
+.card-projects:hover {
     transform: scale(1.03);
     background: #eece1a;
 }
@@ -128,4 +143,6 @@ h5 {
     color: black;
 }
 
-.card-image {}
+.mi {
+    padding-top: 20px;
+}
