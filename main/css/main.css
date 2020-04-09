@@ -127,3 +127,7 @@ h5 {
     transform: scale(1.03);
     background: #eece1a;
 }
+
+.card-reveal {
+    color: black;
+}
